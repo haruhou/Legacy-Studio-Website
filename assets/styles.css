@@ -1,0 +1,92 @@
+body {
+  font-family: Antic Didone, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Antic Didone, sans-serif;
+  font-weight: 600;
+  color: #222;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+a:hover {
+  color: #ff6347;
+}
+
+.btn {
+  padding: 14px 38px;
+  border-radius: 0;
+}
+
+.btn-brand {
+  background-color: #ff6347;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.btn-brand:hover {
+  background-color: #e5533d;
+  color: #fff;
+}
+
+/* Hero section */
+.slide-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #0000002d),
+    url(../assets/imgs/hero1.jpg);
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #0000002d),
+    url(../assets/imgs/hero2.jpg);
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  padding: 60px 0;
+}
+.col-lg-5 {
+  padding: 50px;
+}
+
+#about .divider {
+  width: 60px;
+  height: 2px;
+  background-color: #ff6347;
+  display: block;
+}
+
+/* intro-text */
+.intro-text {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.intro-text p {
+  max-width: 500px;
+  margin: 40px auto 0 auto;
+}
