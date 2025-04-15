@@ -20,9 +20,11 @@
 
   <body>
     <!-- Header -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary py-4">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-2">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/imgs/header-logo.png" width="120px" height="60px" alt="logo" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -34,30 +36,31 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav mx-auto ">
+            <li class="nav-item px-3">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item px-3">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item px-3">
               <a class="nav-link" href="about.html">About Us</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item px-3"></li>
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
-          <a href="#" class="btn btn-brand">Contact</a>
+          <button class="btn btn-brand" data-bs-toggle="modal" data-bs-target="#zodiacGameModal">
+            Zodiac Card Game
+          </button>
         </div>
       </div>
     </nav>
 
     <main>
-        <!-- story -->
+      <!-- story -->
       <section id="mission">
         <div
           class="container h-100 d-flex align-items-left justify-content-left"
