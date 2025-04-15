@@ -229,3 +229,51 @@ section {
 .image-wrapper:hover .hover-caption {
   transform: translateY(0);
 }
+
+/* card game style*/
+
+.card-container {
+  margin-top: 20px;
+}
+
+.card-flip {
+  width: 120px;
+  height: 160px;
+  perspective: 1000px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.card-flip.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 14px;
+}

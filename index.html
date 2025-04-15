@@ -51,10 +51,28 @@
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
-          <a href="contact.html" class="btn btn-brand">Game</a>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#zodiacGameModal">
+            Zodiac Card Game
+          </button>
         </div>
       </div>
     </nav>
+    <!--javascript game-->
+    <div class="modal fade" id="zodiacGameModal" tabindex="-1" aria-labelledby="zodiacGameLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Flip the Zodiac Cards</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="关闭"></button>
+          </div>
+          <div class="modal-body">
+            <div class="card-container d-flex flex-wrap justify-content-center gap-3">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Hero section -->
     <div id="hero-section" class="carousel slide">
@@ -824,7 +842,10 @@
           this.reset();
         });
     </script>
-    
+    <script src="javascript.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    
+      
+      
   </body>
 </html>
