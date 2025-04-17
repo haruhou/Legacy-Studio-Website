@@ -77,7 +77,7 @@ a:hover {
 /* Hero section */
 .slide-1 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), #0000002d),
-    url(../assets/imgs/hero1.jpg);
+    url(../assets/imgs/hero-1.png);
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -89,7 +89,7 @@ a:hover {
 
 .slide-2 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), #0000002d),
-    url(../assets/imgs/hero2.jpg);
+    url(../assets/imgs/hero-2.png);
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
